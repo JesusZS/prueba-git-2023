@@ -1,12 +1,11 @@
 let n1 = 7;
 let n2 = 3;
 
-
 /**
- * 
- * @param {*} num1 
- * @param {*} num2 
- * @returns 
+ *
+ * @param {*} num1
+ * @param {*} num2
+ * @returns
  */
 function restar(num1, num2) {
     let resultado = num1 - num2;
@@ -15,4 +14,12 @@ function restar(num1, num2) {
     return resultado;
 }
 
+function sumar(num1, num2) {
+    let resultado = num1 + num2;
+    console.log(`el resultado de la suma es: ${resultado}`);
+
+    return resultado;
+}
+
 restar(n1, n2);
+sumar(n1, n2);
